@@ -1,4 +1,4 @@
-# dogechain-com
+# Dogechain
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,133 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dogechain-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dogechain.com/
+Dogechain provides a Dogecoin block explorer and API services, offering real‑time data on blocks, transactions, addresses, fees, supply, and network statistics. Users can query the blockchain in plain English, access rich charts, and integrate the API into applications for monitoring and analytics.
+
+**Areas:** Blockchain · Explorer · API · Dogecoin · Crypto
+
+## Dogechain on APIs.io
+
+Everything profiled for Dogechain is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dogechain-com/](https://apis.io/providers/dogechain-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (12)
+
+- [Dogechain Address API](https://apis.io/apis/dogechain-com/dogechain-com-address-api/) — The Address API from Dogechain — 1 operation(s) for address.
+- [Dogechain Block API](https://apis.io/apis/dogechain-com/dogechain-com-block-api/) — The Block API from Dogechain — 1 operation(s) for block.
+- [Dogechain Blocks API](https://apis.io/apis/dogechain-com/dogechain-com-blocks-api/) — The Blocks API from Dogechain — 1 operation(s) for blocks.
+- [Dogechain Chart API](https://apis.io/apis/dogechain-com/dogechain-com-chart-api/) — The Chart API from Dogechain — 1 operation(s) for chart.
+- [Dogechain Fees API](https://apis.io/apis/dogechain-com/dogechain-com-fees-api/) — The Fees API from Dogechain — 1 operation(s) for fees.
+- [Dogechain Find API](https://apis.io/apis/dogechain-com/dogechain-com-find-api/) — The Find API from Dogechain — 1 operation(s) for find.
+- [Dogechain Labels API](https://apis.io/apis/dogechain-com/dogechain-com-labels-api/) — The Labels API from Dogechain — 1 operation(s) for labels.
+- [Dogechain Live API](https://apis.io/apis/dogechain-com/dogechain-com-live-api/) — The Live API from Dogechain — 1 operation(s) for live.
+- [Dogechain Network API](https://apis.io/apis/dogechain-com/dogechain-com-network-api/) — The Network API from Dogechain — 1 operation(s) for network.
+- [Dogechain Richlist API](https://apis.io/apis/dogechain-com/dogechain-com-richlist-api/) — The Richlist API from Dogechain — 1 operation(s) for richlist.
+- [Dogechain Supply API](https://apis.io/apis/dogechain-com/dogechain-com-supply-api/) — The Supply API from Dogechain — 1 operation(s) for supply.
+- [Dogechain Tx API](https://apis.io/apis/dogechain-com/dogechain-com-tx-api/) — The Tx API from Dogechain — 1 operation(s) for tx.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dogechain Com Agentic Access](https://apis.io/agentic-access/dogechain-com/dogechain-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AddressTx](https://apis.io/schemas/dogechain-com/dogechain-com-address-tx/)
+- [Block](https://apis.io/schemas/dogechain-com/dogechain-com-block/)
+- [Fees](https://apis.io/schemas/dogechain-com/dogechain-com-fees/)
+- [RichRow](https://apis.io/schemas/dogechain-com/dogechain-com-rich-row/)
+- [Supply](https://apis.io/schemas/dogechain-com/dogechain-com-supply/)
+- [Transaction](https://apis.io/schemas/dogechain-com/dogechain-com-transaction/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dogechain Com Context](https://apis.io/jsonld/dogechain-com/dogechain-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Dogechain API Rules](https://apis.io/rules/dogechain-com/dogechain-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dogechain Com Domain Security](https://apis.io/security/dogechain-com/dogechain-com-domain-security/)
+- [Dogechain Com Vulnerability Disclosure](https://apis.io/security/dogechain-com/dogechain-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dogechain.com/)
+- [Documentation](https://dogechain.com/developers)
+- [Getting started](https://dogechain.com/developers)
+- [API reference](https://dogechain.com/openapi.json)
+- [Support](https://dogechain.com/about)
+- [Terms of service](https://dogechain.com/terms)
+- [Privacy policy](https://dogechain.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.1** — developing · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 31.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dogechain-com/](https://apis.io/providers/dogechain-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dogechain: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dogechain-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
